@@ -52,8 +52,8 @@ header{
 .logo{
 max-width: inherit;
     max-height: inherit;
-    height: inherit;
-    width: inherit;
+    height: 10vh;
+    width: auto;
     vertical-align: center;
     text-aign: center;
 }
