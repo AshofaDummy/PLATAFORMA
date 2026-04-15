@@ -92,7 +92,6 @@ border-radius: 15px;
   list-style-type: "✅";
   list-style-position: inside;
   display: inline-block;
-  border:2px solid black;
   display: flex;
   align-self: stretch;
  height: calc(100% - 5em);
