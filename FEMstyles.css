@@ -44,7 +44,7 @@ header{
   vertical-align: center;
   width:25%;
   max-width:100px;
-  max-height:inherit;
+  max-height:10vh;
   height:auto;
   padding: 1px;
 }
