@@ -1,0 +1,162 @@
+/*TEXT CSS*/
+
+h1, .h2-plataforma{
+  font-family: 'Built Titling', sans-serif;
+  color:var(--FEM-magenta);
+  font-weight: 850;
+  font-size: 4.5rem;
+  overflow-wrap: break-word;
+  margin: 7px 3px;
+  background: transparent;
+
+}
+
+h2{
+  font-family: Montserrat, sans-serif;
+  color:var(--FEM-blanco);
+  background-color: var(--FEM-magenta);
+  font-weight: 850;
+  font-size: 1.5rem;
+  overflow-wrap:anywhere;
+  padding: 0 3px;
+  width: auto;
+  margin-bottom: 0.8rem;
+}
+
+.h2-plataforma{
+    margin-top: 6vh;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h3{
+  font-family: Montserrat, sans-serif;
+  color:var(--FEM-magenta);
+  font-weight: 850;
+  font-size: 1.2rem;
+  overflow-wrap:anywhere;
+  padding: 0 3px;
+  width: auto;
+  margin-bottom: 0.8rem;
+}
+
+.h3-listas{
+  display: inline-block;
+  text-wrap: wrap;
+  width: auto;
+  height: min-content;
+}
+
+.polariza-fem h3{
+  color: var(--FEM-blanco);
+  transition: cubic-bezier(0.075, 0.82, 0.65, 1) 0.5s;
+  text-align: center;
+}
+
+.polariza-franja h3{
+  color: orange;
+  text-align: center;
+  transition: cubic-bezier(0.075, 0.82, 0.65, 1) 0.5s;;;
+}
+
+p{
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 400;
+    margin: 5px 1px;
+    padding: 0.3rem;
+    height: min-content;
+    align-self: center;
+}
+
+.p-listas{
+  display: inline-block;
+  min-width: none;
+}
+
+strong, b, .azul, .rosa, .franja-m{
+    font-size: inherit;
+font-weight: 800;
+color: inherit;
+}
+
+strong , b{
+  color: var(--FEM-verde);
+}
+
+.azul{
+  color:rgb(15, 46, 148);
+}
+
+.rosa{
+  color: var(--FEM-magenta);
+}
+
+.franja-m{
+  color: orangered;
+  background-color: black;
+}
+
+.no-color{
+    color: inherit;
+}
+
+/*Links*/
+main a{
+  color:var(--FEM-magenta);
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.internal-links{
+  display: flex;
+  margin: auto;
+  max-height: 80vh;
+  margin: 3px auto 10px;
+  justify-content: center;
+}
+
+#links{
+    margin: 10px auto;
+    max-width:inherit;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+  #links {
+    max-width: 95%;
+    margin:auto;
+    text-align: center;
+  }
+}
+
+.page-link{
+    display:block;
+    max-width: 100%;
+    width:auto;
+    margin: 5px auto;
+    outline:solid var(--FEM-magenta) 2px;
+    text-decoration: none;
+    text-align: center;
+    color:black;
+    font-size: 2.2rem;
+    font-weight: bold;
+    border-radius: 2px;
+    overflow:hidden;
+}
+
+.page-link:hover{
+    background-color: var(--FEM-magenta);
+    color: var(--FEM-blanco);
+    box-shadow: 5px 10px var(--FEM-verde);
+    transform: translateY(-10px);
+    transition: 0.5s ease;
+}
+
+.link-pequeño{
+  height: min-content;
+  margin:1rem;
+  font-size: 1.5rem;
+  padding-bottom: 0.3rem;
+}

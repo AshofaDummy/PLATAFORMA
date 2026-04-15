@@ -1,0 +1,62 @@
+/*BUILT TITLING FONTFACE*/
+
+    @font-face {
+      font-family: "Built Titling";
+      src: url(./Assets/built_titling/built\ titling\ bd.otf);
+      font-weight: bold;
+    }
+
+    @font-face {
+      font-family: "Built Titling";
+      src: url(./Assets/built_titling/built\ titling\ bd\ it.otf);
+      font-weight: bold;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: "Built Titling";
+      src: url(./Assets/built_titling/built\ titling\ el.otf);
+      font-weight: 200;
+    }
+
+    @font-face {
+      font-family: "Built Titling";
+      src: url(./Assets/built_titling/built\ titling\ el\ it.otf);
+      font-weight: 200;
+      font-style: italic
+    }
+
+    @font-face {
+      font-family: "Built Titling";
+      src: url(./Assets/built_titling/built\ titling\ lt.otf);
+      font-weight: 300;
+    }
+
+    @font-face {
+      font-family: "Built Titling";
+      src: url(./Assets/built_titling/built\ titling\ el\ it.otf.otf);
+      font-weight: 300;
+      font-style: italic
+    }
+
+    @font-face {
+      font-family: "Built Titling";
+      src: url(./Assets/built_titling/built\ titling\ rg.otf);
+    }
+
+    @font-face {
+      font-family: "Built Titling";
+      src: url(./Assets/built_titling/built\ titling\ rg\ it.otf.otf);
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: "Built Titling";
+      src: url(./Assets/built_titling/built\ titling\ sb.otf);
+      font-weight: bolder;
+    }
+
+    @font-face {
+      font-family: "Built Titling";
+      src: url(./Assets/built_titling/built\ titling\ sb.otf);
+    }
