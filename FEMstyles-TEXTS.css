@@ -63,6 +63,13 @@ h3{
   transition: cubic-bezier(0.075, 0.82, 0.65, 1) 0.5s;;;
 }
 
+ #proyectos{
+  color: var(--FEM-verde);
+    margin-top: -1vh;
+    text-transform: uppercase;
+}
+
+
 p{
     font-family: Montserrat, sans-serif;
     font-size: 1rem;

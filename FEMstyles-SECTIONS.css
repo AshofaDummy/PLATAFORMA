@@ -254,5 +254,61 @@ border-radius: 15px;
 }
 }
 
+/*HITS EN EL CONSEJO*/
+
+#hits-en-el-consejo{
+  text-align: center;
+  
+}
+
+.disco{
+  width: max(70% 300px);
+  margin-bottom: 3px;
+}
+.ol{
+  width: auto;
+  position: relative;
+  justify-self: center;
+  
+}
+
+#hits-en-el-consejo ol{
+  width: max-content;
+  font-size: 20pt;
+  text-align: left;
+  list-style-type: decimal;
+  list-style-position:outside;
+  color: var(--FEM-magenta);
+  font-weight: bold;
+}
+
+#hits-en-el-consejo ol li {
+  height: min-content;
+  margin: 0;
+  padding: 0;
+}
+
+#hits-en-el-consejo ol li p {
+  height: min-content;
+  font-weight:600;
+  margin: 2px;
+  padding: 0;
+}
+
+
+
+.aprobado{
+  font-weight: bold;
+  font-family: 'Built Titling', sans-serif;
+  color: var(--FEM-verde);
+  border: 2px solid var(--FEM-verde);
+  font-size: 1rem;
+  padding: 0 2px;
+  transform: skewX(-10deg);
+}
+
+.alerta{
+  letter-spacing: -10px;
+  transform: rotate(15deg);}
 
 

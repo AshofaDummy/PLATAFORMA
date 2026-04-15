@@ -11,12 +11,12 @@
     --FEM-blanco: #F6F6F6;
     --FEM-fondo: #fffcfc;
     max-width: 100%;
-    border: 1px solid black
 }
 
 :root{
 margin: 0;
 padding: 0;
+font-size: 14pt;
 }
 
 html{
