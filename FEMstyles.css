@@ -49,6 +49,14 @@ header{
   padding: 1px;
 }
 
+.logo{
+max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+    vertical-align: center;
+    text-aign: center;
+}
 .nav-div{
   box-sizing: content-box;
   vertical-align: center;
