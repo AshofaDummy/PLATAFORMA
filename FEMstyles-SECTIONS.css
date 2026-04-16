@@ -283,6 +283,7 @@ border-radius: 15px;
 }
 
 #hits-en-el-consejo ol li {
+  list-style-type: disc;
   height: min-content;
   margin: 0;
   padding: 0;
