@@ -75,9 +75,11 @@ border-radius: 15px;
 /*ESTUDIANTE QUE TRABAJA*/
 
 .img-lista-trabaja{
+  object-fit: fill;
   height:100px;
-  width: auto;
+  width: 100px;
   aspect-ratio:1/1;
+  border-radius: 5%;
 }
 
 
@@ -116,6 +118,7 @@ border-radius: 15px;
 .polariza-franja{
   direction: rtl;
   color: orange;
+  padding-left: 16px;
 }
 
 .polariza-franja h3{
@@ -125,22 +128,32 @@ border-radius: 15px;
   position: relative;
   display:flex;
   gap: 5px;
-  padding-left: 32px;
+  padding: 0;
   max-width: 100%;
+  background-color: orange;
+  border-radius: 10px;
 }
 
 .polariza-franja .img-acompaña{
-  width: min(35%, 80px);
+  width: auto;
+  height: 5em;
   aspect-ratio: auto;
+  border-radius: 3%;
+  margin: 1%;
 }
 
 .cruz{
   position: absolute;
-  bottom: 0;
-  left :0;
-  width:50px;
-  height:50px;
+  top: 30%;
+  right :-20px;
+  width:35px;
+  height:35px;
   background-size: contain;
+  transform: rotate(15deg);
+}
+
+.sin-imagen{
+  padding-right: 10px;
 }
 
 @media (max-width: 600px) {
@@ -193,6 +206,7 @@ border-radius: 15px;
     flex-shrink: 2;
     min-width: 0;
     max-height: none;
+    width: 50%;
   }
 
   .polariza-fem p, .polariza-franja p{
@@ -240,5 +254,62 @@ border-radius: 15px;
 }
 }
 
+/*HITS EN EL CONSEJO*/
+
+#hits-en-el-consejo{
+  text-align: center;
+  
+}
+
+.disco{
+  width: max(70% 300px);
+  margin-bottom: 3px;
+}
+.ol{
+  width: auto;
+  position: relative;
+  justify-self: center;
+  
+}
+
+#hits-en-el-consejo ol{
+  width: max-content;
+  font-size: 20pt;
+  text-align: left;
+  list-style-type: decimal;
+  list-style-position:outside;
+  color: var(--FEM-magenta);
+  font-weight: bold;
+}
+
+#hits-en-el-consejo ol li {
+  list-style-type: disc;
+  height: min-content;
+  margin: 0;
+  padding: 0;
+}
+
+#hits-en-el-consejo ol li p {
+  height: min-content;
+  font-weight:600;
+  margin: 2px;
+  padding: 0;
+}
+
+
+
+.aprobado{
+  font-weight: bold;
+  font-family: 'Built Titling', sans-serif;
+  color: var(--FEM-verde);
+  border: 2px solid var(--FEM-verde);
+  font-size: 1rem;
+  padding: 0 2px;
+  transform: skewX(-10deg);
+}
+
+.alerta{
+  letter-spacing: -10px;
+  transform: rotate(15deg);}
 
 

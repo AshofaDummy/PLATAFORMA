@@ -5,16 +5,25 @@
     padding:0;
     box-sizing: border-box;
     font-family: Montserrat, monospace;
-    font-size: 14pt;
+    font-size: 16pt;
     --FEM-magenta: #E40C7F;
     --FEM-verde: rgb(0, 114, 80);
     --FEM-blanco: #F6F6F6;
     --FEM-fondo: #fffcfc;
-/*   border: 1px solid black*/
+    max-width: 100%;
+}
+
+:root{
+margin: 0;
+padding: 0;
+font-size: 14pt;
 }
 
 html{
   scroll-padding-top: 12vh;
+  padding: 0;
+  margin: 0;
+
 }
 
 body{
@@ -55,7 +64,7 @@ max-width: inherit;
     height: 10vh;
     width: auto;
     vertical-align: center;
-    text-aign: center;
+    text-align: center;
 }
 .nav-div{
   box-sizing: content-box;
@@ -102,6 +111,7 @@ ul{
   height: max-content;
   gap:0;
   margin-bottom: 3vh;
+  height: min-content;
 }
 
 .texto-acompaña{
@@ -117,6 +127,7 @@ margin: 0;
   aspect-ratio: 1/1;
   margin-right: 20px;
   margin: 0;
+  border: 1px solid black;
 }
 
 .center{
