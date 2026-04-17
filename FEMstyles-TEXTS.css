@@ -1,13 +1,7 @@
 /*TEXT CSS*/
 
 h1, .h2-plataforma{
-  font-family: 'Built Titling', sans-serif;
-  color:var(--FEM-magenta);
-  font-weight: 850;
-  font-size: 4.5rem;
-  overflow-wrap: break-word;
-  margin: 7px 3px;
-  background: transparent;
+
 
 }
 
@@ -69,49 +63,7 @@ h3{
 }
 
 
-p{
-    font-family: Montserrat, sans-serif;
-    font-size: 1rem;
-    text-align: justify;
-    font-weight: 400;
-    margin: 5px 1px;
-    padding: 0.3rem;
-    height: min-content;
-    align-self: center;
-    color: black;
-}
 
-.p-listas{
-  display: inline-block;
-  min-width: none;
-}
-
-strong, b, .azul, .rosa, .franja-m{
-    font-size: inherit;
-font-weight: 800;
-color: inherit;
-}
-
-strong , b{
-  color: var(--FEM-verde);
-}
-
-.azul{
-  color:rgb(15, 46, 148);
-}
-
-.rosa{
-  color: var(--FEM-magenta);
-}
-
-.franja-m{
-  color: orangered;
-  background-color: black;
-}
-
-.no-color{
-    color: inherit;
-}
 
 /*Links*/
 main a{
