@@ -27,6 +27,7 @@ html{
 }
 
 body{
+  position: relative;
   background-color:var(--FEM-fondo);
   width:100%;
   min-height: 100vh;
@@ -127,7 +128,6 @@ margin: 0;
   aspect-ratio: 1/1;
   margin-right: 20px;
   margin: 0;
-  border: 1px solid black;
 }
 
 .center{

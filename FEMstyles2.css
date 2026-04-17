@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Montserrat, monospace;
+    font-size: 16pt;
+    max-width: 100%;
+    ---magenta: #E40C7F;
+    ---verde: rgb(0, 114, 80);
+    ---blanco: #F6F6F6;
+    --fondo: #fffcfc;
+    --identidad:
+}
